@@ -3,11 +3,124 @@
 <html>
 
 <head>
+	<title>HTML Assignment 3</title>
+	    <style>
+        table {
+            border: 1px solid black;
+            border-spacing: 1px;
+            padding: 1px;
+            width: 80%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: left;
+        }
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+        .green {
+            background-color: green;
+        }
+        .blue {
+            background-color: blue;
+        }
+    </style>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	    <h2 style="text-align: center;">HTML Assignment #3</h2>
+    
+    <!-- Table 1 -->
+    <table class="middle" id="table-1">
+        <tr>
+            <td id="t11">left</td>
+            <td id="t12" class="center">center</td>
+            <td id="t13" class="right">right</td>
+        </tr>
+        <tr>
+            <td>left</td>
+            <td class="center">center</td>
+            <td class="right">right</td>
+        </tr>
+        <tr>
+            <td>left</td>
+            <td class="center">center</td>
+            <td class="right">right</td>
+        </tr>
+    </table>
+    <br>
+    
+    <!-- Table 2 -->
+    <table class="middle" id="table-2">
+        <tr>
+            <td id="t21" colspan="6"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <br>
+    
+    <!-- Table 3 -->
+    <table class="middle" id="table-3">
+        <tr class="green">
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="t-image">
+                <img src="https://mythgyaan.com/wp-content/uploads/2018/06/michael-jordan-dunking.jpg" width="300" height="200" alt="Dunking Image">
+            </td>
+            <td></td>
+        </tr>
+        <tr class="blue">
+            <td colspan="3"></td>
+        </tr>
+    </table>
     <script type="text/javascript" src="./script.js">
 </script>
 
